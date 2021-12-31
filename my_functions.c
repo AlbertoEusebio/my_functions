@@ -149,7 +149,7 @@ _Bool all_equals(int n[], int size){
 	
 }
 
-void delay(clock_t mill){
+void my_delay(clock_t mill){
 /*This function is a delay function*/
 
 	clock_t start = 0 , end = 0, diff = 0;

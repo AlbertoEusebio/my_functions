@@ -21,7 +21,7 @@ void upper(char str[]);
 void clear_string(char *str);
 void binary_code(int n, char str[]);
 _Bool all_equals(int n[], int size);
-void delay(clock_t mill);
+void my_delay(clock_t mill);
 char* i_to_str(long int n, char buff[], int b);
 long int str_to_i(char* str, int b, int size);
 
